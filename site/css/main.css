@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  background-image: url("pingar.png");
+  font-family: 'droid sans';
+  text-decoration: none;
+}
+.hela{
+
+}
+.toolbar{
+  z-index: 2;
+  background-color: #DFA9A9;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 9px 50px -2px rgba(0,0,0,0.75);
+}
+.return{
+margin-left: 100px;
+}
+.knapp{
+ padding: 5px;
+ padding-right: 100px;
+}
+.hiddenmenu{
+visibility: hidden;
+}
+.menuopt{
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.rubrik{
+font-size: 20px;
+font-family: 'droid sans';
+color: black;
+}
+p, a, h3, h2{
+  font-family: 'droid sans';
+  text-decoration: none;
+  color: #AD7F89;
+  margin: 10px;
+}
+.ow{
+  font-family: 'droid sans';
+  font-style: italic;
+}
+.klick{
+position: absolute;
+display: flex;
+flex-direction: row;
+}
+.shade{
+  opacity: 0.2;
+  margin-top: -50px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.overview{
+  background-color: white;
+  font-family: 'droid sans';
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+  max-width: 300px;
+}
+.kalkyl{
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.streck{
+  height: 2px;
+  width: 300px;
+  background-color: #AD7F89;
+}
+.menuphoto{
+  margin-top: -50px;
+}
+.hidden{
+ visibility: hidden;
+}
+.adder{
+background-color: white;
+font-family: 'droid sans';
+text-decoration: none;
+display: flex;
+position: fixed;
+flex-direction: column;
+padding: 20px;
+border-radius: 20px;
+margin-top: 50px;
+left: 92.5px;
+bottom: 300px;
+z-index: 100;
+}
+.addback{
+opacity: 0.5;
+display: flex;
+position: fixed;
+z-index: 10;
+margin: 0;
+margin-left: -92.5px;
+margin-bottom: -300px;
+border-radius:0px;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+.hover{
+  display: flex;
+  position: fixed;
+  margin: 0px;
+  right: calc(50vw - 20px);
+  bottom: 10px;
+}
+input[type=search] {
+  text-align: left;
+  cursor: pointer;
+  height: 20px;
+  margin: auto;
+  border-style: hidden;
+  font-family: 'droid sans';
+}
