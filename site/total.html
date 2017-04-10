@@ -8,10 +8,11 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
   </head>
   <body>
-      <header class="toolbar">
-        <img class="knapp" onclick="show()" src="./img/money.png" height="40px">
-        <p class="rubrik">Home</p>
-      </header>
+    <header class="toolbar">
+      <img class="knapp" onclick="show()" src="./img/money.png" height="40px">
+      <p class="rubrik">Home</p>
+      <a href="index.html" class="return"><img class="return" src="./img/return.png" height="40px;"></a>
+    </header>
       <div class="klick hiddenmenu">
         <div class="menuopt">
           <img class="menuphoto" src="./img/mauvetext.png" width="300px">
@@ -25,36 +26,19 @@
         <a href="index.html" class="shade"><img src="./img/black.jpg" width="75px" height="800px"></a>
       </div>
       <div class="overview">
-        <div class="inforubrik">
-          <h3 class="ow">Your personal overview:</h3>
-          <img class="infobutton" onclick="info()" src="./img/info.png" height="24px" width="24px">
-        </div>
-        <div class="info hidden">
-          <img class="black"src="./img/black.jpg">
-        </div>
-        <div class="info hidden">
-          <p>Click on the different categories for further information</p>
-          <button class="okbutton" onclick="window.location.href='index.html'">OK!</button>
-        </div>
+        <h3 class="ow">Your total this month</h3>
         <div class="kalkyl">
           <div class="left">
              <a href="inkomst.html">Income</a>
-             <a href="#">Mat</a>
-             <p>Restaurang</p>
-             <p>Kläder</p>
-             <p>Sprit</p>
-             <a href="utgift.html">Fasta Kostnader</a>
+             <a href="#">Expences</a>
+             <p>Exeedance above budget</p>
              <div class="streck"></div>
-             <a href="total.html" class="summa">Total</a>
+             <p class="summa">Our recomentation is to contact our customer service to get help with you spending</p>
            </div>
            <div class="right">
              <a class="2" href="#">12000:-</a>
-             <a class="2" href="mat.html">3000:-</a>
-             <p class="2">2000:-</p>
-             <p class="2">1300:-</p>
-             <p class="2">1000:-</p>
-             <a class="2" href="utgift.html">5000:-</a>
-             <p class="summa 2">-300:-</p>
+             <a class="2" href="mat.html">15000:-</a>
+             <p class="summa 2">300:-</p>
            </div>
          </div>
       </div>

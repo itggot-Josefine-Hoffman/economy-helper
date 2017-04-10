@@ -25,11 +25,21 @@
         <a href="hem2.html" class="shade"><img src="./img/black.jpg" width="75px" height="800px"></a>
       </div>
       <div class="overview">
-        <h3 class="ow">Your personal overview:</h3>
+        <div class="inforubrik">
+          <h3 class="ow">Your personal overview:</h3>
+          <img class="infobutton" onclick="info()" src="./img/info.png" height="24px" width="24px">
+        </div>
+        <div class="info hidden">
+          <img class="black"src="./img/black.jpg">
+        </div>
+        <div class="info hidden">
+          <p>Click on the different categories for more information</p>
+          <button class="okbutton" onclick="window.location.href='hem2.html'">OK!</button>
+        </div>
         <div class="kalkyl">
           <div class="left">
              <a href="inkomst.html">Income</a>
-             <a href="mat.html">Mat</a>
+             <a href="#">Mat</a>
              <p>Restaurang</p>
              <p>Kläder</p>
              <p>Sprit</p>
@@ -50,7 +60,7 @@
            </div>
          </div>
       </div>
-      <img class="hover" onclick="add()" src="./img/biggadd.png" height="40px">
+      <img class="klick hover" onclick="add()" src="./img/biggadd.png" height="40px">
       <img class="adder addback hidden" src="./img/black.jpg">
       <div class="adder hidden">
         <h3>Add item:</h3>

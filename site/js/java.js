@@ -11,3 +11,9 @@ function add(){
     element.classList.toggle('hidden');
   });
 }
+function info(){
+  var elements = document.querySelectorAll('.info');
+  elements.forEach(function(element) {
+    element.classList.toggle('hidden');
+  });
+}
